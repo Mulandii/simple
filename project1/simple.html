@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spike Graphics</title>
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            color: #da0e0e;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, footer {
+            display: block;
+            padding: 20px;
+        }
+        nav a {
+            color: #0674db;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Spike Graphics</h1>
+            <p>Preserving traditional craftsmanship since 2010</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#photoshop">Photoshop</a>
+            <a href="#advertisement">Recent Advertisement</a>
+            <a href="#transactions">Online Transactions</a>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <section id="home">
+                <h2>Our Story</h2>
+                <p>Spike was founded in 2010 by a group of passionate articians dedicated to preserving traditional craftsmanship.</p>
+            </section>
+            <section id="products">
+                <h2>Products Offered</h2>
+                <ul>
+                    <li>Handmade Pottery</li>
+                    <li>Handwoven Textiles</li>
+                    <li>Wooden Crafts</li>
+                </ul>
+            </section>
+            <section id="photoshop">
+                <h2>Photoshop</h2>
+                <p>Showcase before and after images of the artistic process behind crafting each product.</p>
+            </section>
+            <section id="advertisement">
+                <h2>Recent Advertisement</h2>
+                <p>Display the latest advertisement showcasing featured products and promotions.</p>
+            </section>
+            <section id="transactions">
+                <h2>Online Transactions</h2>
+                <form action="submit.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <!-- Other fields for payment information -->
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Contact us: spikeinc.eu.ru.org</p>
+        </div>
+    </footer>
+</body>
+</html>
